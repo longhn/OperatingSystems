@@ -1,3 +1,10 @@
+/**
+ * Interface of a thread safe hash table.
+ * @author Efe Acer - 21602217
+ * @author Yusuf Dalva - 21602867
+ * @version 1.0
+ */
+
 #ifndef HASH_H
 #define HASH_H
 
@@ -26,11 +33,11 @@ struct hash_table {
 typedef struct hash_table HashTable; 
 
 HashTable *hash_init(int N, int K);
-int hash_insert(HashTable *hp, int k, void* v);
-int hash_delete(HashTable *hp, int k);
-int hash_update(HashTable *hp, int, void *v);
-int hash_get(HashTable *hp, int k, void **vp);
-int hash_destroy(HashTable *hp);
+int hash_insert(HashTable* hp, int k, void* v);
+int hash_delete(HashTable* hp, int k);
+int hash_update(HashTable* hp, int, void* v);
+int hash_get(HashTable* hp, int k, void** vp);
+int hash_destroy(HashTable* hp);
 
 // Debug purposes
 void print_table(HashTable* hp);
