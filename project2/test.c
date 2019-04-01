@@ -92,6 +92,6 @@ void* perform_experiment(void* expr_no) {
         hash_delete(ht1, i);
     }
     // pthread_exit(NULL); -> this function allocates a block that is not
-	//                        freed at the end of the process exit
-	return NULL; // so this is a better way to end pthread execution
+    //                        freed at the end of the process exit
+    return NULL; // so this is a better way to end pthread execution
 }

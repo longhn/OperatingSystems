@@ -126,8 +126,8 @@ void* process_file(void* file_name) {
     }
 	fclose(fp);
     // pthread_exit(NULL); -> this function allocates a block that is not
-	//                        freed at the end of the process exit
-	return NULL; // so this is a better way to end pthread execution
+    //                        freed at the end of the process exit
+    return NULL; // so this is a better way to end pthread execution
 }
 
 int comparator(const void* first, const void* second) {
