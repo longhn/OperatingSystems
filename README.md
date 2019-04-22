@@ -1,6 +1,6 @@
 # Assignments of CS342 - Operating Systems
 
-### Homework 1: Linux System Calls
+### Homework 1: *Linux System Calls*
 - Basic use of Linux system calls and their performance
 - *Teammate:* Individual
 
