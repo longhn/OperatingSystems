@@ -27,6 +27,11 @@
 ### Project 3: *Resouce Allocation Library*
 - Synchronization and Deadlocks 
 - Banker's Algorithm
-- Mutex locks and Condition Variables in Pthreads API
+- Mutex Locks and Condition Variables in Pthreads API
 - Monitor Implementation
+- *Teammate:* [Yusuf Dalva](https://github.com/yusufdalva)
+
+### Project 3: *A Module to Access In-Memory File System Structures*
+- Developing Linux Kernel Modules
+- In Memory File and File-System Structures of Linux
 - *Teammate:* [Yusuf Dalva](https://github.com/yusufdalva)
